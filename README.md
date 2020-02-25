@@ -24,4 +24,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Project development:
+First we create modules with routing using following command
+    ng generate module home --route homepage --module app.module
+    
+The command above will generate a new module called home and homepage as the route path to load the home component. In addition, it will add the homepage route inside the Routes array inside this module as the --module options. Same will be the case for second command for user.
+
