@@ -27,6 +27,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 Project development:
 First we create modules with routing using following command
     ng generate module home --route homepage --module app.module
-    
+    ng generate module profile --route profile --module app.module
+    ng generate module settings --route settings --module app.module
+
 The command above will generate a new module called home and homepage as the route path to load the home component. In addition, it will add the homepage route inside the Routes array inside this module as the --module options. Same will be the case for second command for user.
 
