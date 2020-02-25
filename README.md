@@ -32,3 +32,6 @@ First we create modules with routing using following command
 
 The command above will generate a new module called home and homepage as the route path to load the home component. In addition, it will add the homepage route inside the Routes array inside this module as the --module options. Same will be the case for second command for user.
 
+To add another component in a specific module execute a command similar to this:
+    ng g c homedetails --module=home
+The command above will generate a new component in home module and then you can use it in your app. You can also set a route for this component in home-routing.module.ts
